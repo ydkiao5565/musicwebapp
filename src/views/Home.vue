@@ -1,7 +1,9 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div id="d1"></div>
+    <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-31liebiao"></use>
+    </svg>
   </div>
 </template>
 
@@ -16,3 +18,11 @@ export default {
   }
 }
 </script>
+
+<style>
+#d1{
+  width: 3.75rem;
+  height: 3.75rem;
+  background-color: lightpink;
+}
+</style>
