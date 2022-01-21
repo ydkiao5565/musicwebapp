@@ -1,28 +1,20 @@
 <template>
-  <div class="home">
-    <div id="d1"></div>
-    <svg class="icon" aria-hidden="true">
-        <use xlink:href="#icon-31liebiao"></use>
-    </svg>
-  </div>
+  <TopNav></TopNav>
+  <SwiperCom></SwiperCom>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import TopNav from '@/components/TopNav.vue'
+import SwiperCom from '@/components/SwiperCom.vue'
+
 
 export default {
   name: 'Home',
+  
   components: {
-    HelloWorld
+    TopNav,
+    SwiperCom,
   }
 }
 </script>
-
-<style>
-#d1{
-  width: 3.75rem;
-  height: 3.75rem;
-  background-color: lightpink;
-}
-</style>
